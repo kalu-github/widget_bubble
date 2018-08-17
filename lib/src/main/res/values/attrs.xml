@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BubbleTextView">
+        <attr name="btv_stroke_color_normal" format="color|reference" />
+        <attr name="btv_stroke_color_press" format="color|reference" />
+        <attr name="btv_stroke_size" format="dimension|reference" />
+        <attr name="btv_arrow_width" format="dimension|reference" />
+        <attr name="btv_arrow_height" format="dimension|reference" />
+        <attr name="btv_arrow_margin_top" format="dimension|reference" />
+        <attr name="btv_radius_size" format="dimension|reference" />
+        <attr name="btv_arrow_right" format="boolean|reference" />
+        <attr name="btv_arrow_left" format="boolean|reference" />
+        <attr name="btv_shadow_radius_size" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BubbleLinearLayout">
+        <attr name="bll_stroke_color_normal" format="color|reference" />
+        <attr name="bll_stroke_color_press" format="color|reference" />
+        <attr name="bll_stroke_size" format="dimension|reference" />
+        <attr name="bll_arrow_width" format="dimension|reference" />
+        <attr name="bll_arrow_height" format="dimension|reference" />
+        <attr name="bll_arrow_margin_top" format="dimension|reference" />
+        <attr name="bll_radius_size" format="dimension|reference" />
+        <attr name="bll_arrow_right" format="boolean|reference" />
+        <attr name="bll_arrow_left" format="boolean|reference" />
+        <attr name="bll_shadow_radius_size" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BubbleRelativeLayout">
+        <attr name="brl_stroke_color_normal" format="color|reference" />
+        <attr name="brl_stroke_color_press" format="color|reference" />
+        <attr name="brl_stroke_size" format="dimension|reference" />
+        <attr name="brl_arrow_width" format="dimension|reference" />
+        <attr name="brl_arrow_height" format="dimension|reference" />
+        <attr name="brl_arrow_margin_top" format="dimension|reference" />
+        <attr name="brl_radius_size" format="dimension|reference" />
+        <attr name="brl_arrow_right" format="boolean|reference" />
+        <attr name="brl_arrow_left" format="boolean|reference" />
+        <attr name="brl_shadow_radius_size" format="dimension|reference" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <lib.kalu.bubble.BubbleTextView
+        android:id="@+id/patient_chat_child_message"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:padding="4dp"
+        android:text="气泡"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:btv_arrow_height="6dp"
+        app:btv_arrow_margin_top="16dp"
+        app:btv_arrow_right="true"
+        app:btv_arrow_width="4dp"
+        app:btv_radius_size="2dp"
+        app:btv_shadow_radius_size="1dp"
+        app:btv_stroke_color_normal="#000000"
+        app:btv_stroke_color_press="#666666"
+        app:btv_stroke_size="4dp" />
+
+</RelativeLayout>
